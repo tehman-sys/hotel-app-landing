@@ -11,8 +11,7 @@ export default function Hero() {
         quality={100}
         className="object-cover object-[70%_center]"
       />
-      <div className="absolute inset-0 bg-gradient-to-r from-slate-900/85 via-slate-900/50 to-transparent" />
-
+      
       <div className="relative z-10 max-w-xl">
         <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight">
           Mobile Apps Built for the Hotel Industry
