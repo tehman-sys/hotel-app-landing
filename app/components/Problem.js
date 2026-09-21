@@ -35,7 +35,7 @@ export default function Problem() {
   return (
     <section className="bg-slate-50 px-6 py-20">
       <div className="max-w-5xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-slate-900">
+        <h2 className="text-3xl hover:text-amber-500 md:text-4xl font-bold text-slate-900">
           The Problem Hotels Are Losing Money To
         </h2>
         <div className="grid md:grid-cols-3 gap-8 mt-12 text-left">

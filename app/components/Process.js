@@ -7,9 +7,9 @@ export default function Process() {
   ];
 
   return (
-    <section className="bg-slate-50 px-6 py-20">
+    <section id="process" className="bg-slate-50 px-6 py-20">
       <div className="max-w-5xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-slate-900">
+        <h2 className="text-3xl md:text-4xl hover:text-amber-500 transition-colors font-bold text-slate-900">
           How We Work
         </h2>
         <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8 mt-12 text-left">

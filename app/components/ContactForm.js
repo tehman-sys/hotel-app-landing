@@ -28,7 +28,7 @@ export default function ContactForm() {
   return (
     <section id="contact" className="bg-slate-50 px-6 py-20">
       <div className="max-w-lg mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-slate-900">
+        <h2 className="text-3xl md:text-4xl  hover:text-amber-500 transition-colors font-bold text-slate-900">
           Let's Talk About Your App
         </h2>
         <p className="text-slate-600 mt-4">

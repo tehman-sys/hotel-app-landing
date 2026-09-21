@@ -59,14 +59,14 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label={social.name}
-              className="text-slate-400 hover:text-amber-500 transition"
+              className="text-slate-300 hover:text-amber-600 transition"
             >
               {social.icon}
             </a>
           ))}
         </div>
 
-        <div className="text-sm text-slate-400 text-center md:text-right">
+        <div className="text-sm text-slate-300 text-center md:text-right">
           <p>contact@oxmite.digital.com</p>
           <p className="mt-1">
             &copy; {new Date().getFullYear()} All rights reserved.

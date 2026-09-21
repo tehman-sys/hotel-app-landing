@@ -13,7 +13,7 @@ export default function Hero() {
       />
       
       <div className="relative z-10 max-w-xl">
-        <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight">
+        <h1 className="text-4xl md:text-6xl hover:text-amber-500 transition-colors font-bold text-white leading-tight">
           Mobile Apps Built for the Hotel Industry
         </h1>
         <p className="text-slate-200 text-lg mt-6">

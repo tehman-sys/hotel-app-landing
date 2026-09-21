@@ -39,9 +39,9 @@ export default function Services() {
   ];
 
   return (
-    <section className="bg-white px-6 py-20">
+    <section id="services" className="bg-white px-6 py-20">
       <div className="max-w-5xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-slate-900">What We Build</h2>
+        <h2 className="text-3xl md:text-4xl hover:text-amber-500 transition-colors font-bold text-slate-900">What We Build</h2>
         <p className="text-slate-600 mt-4 max-w-xl mx-auto">
           Custom mobile apps built around how hotels actually operate.
         </p>
