@@ -28,7 +28,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-b md:bg-gradient-to-r from-slate-900/90 via-slate-900/70 md:via-slate-900/50 to-slate-900/60 md:to-transparent" />
 
       <div className="relative z-10 max-w-xl">
-        <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight">
+        <h1 className="text-4xl md:text-6xl  hover:text-amber-500 hover:translate-y-[-2px] font-bold text-white leading-tight">
           Mobile Apps Built for the Hotel Industry
         </h1>
         <p className="text-slate-200 text-lg mt-6">

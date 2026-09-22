@@ -24,7 +24,7 @@ export default function Testimonials() {
   ];
 
   return (
-    <section className="bg-slate-50 px-6 py-20">
+    <section id="testimonials" className="bg-slate-50 px-6 py-20">
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-slate-900">
           What Hotels Are Saying
