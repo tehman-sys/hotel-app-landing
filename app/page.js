@@ -7,6 +7,7 @@ import Pricing from "./components/Pricing";
 import ContactForm from "./components/ContactForm";
 import CTABanner from "./components/CTABanner";
 import Footer from "./components/Footer";
+import FAQ from "./components/FAQ";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Process />
       <Pricing />
       <ContactForm />
+      <FAQ />
       <CTABanner />
       <Footer />
     </main>

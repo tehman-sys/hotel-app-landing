@@ -15,7 +15,7 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-[100] shadow-2xl bg-white backdrop-blur-md border-b  border-slate-100 px-8 py-6">
       <div className="max-w-5xl mx-auto flex items-center justify-between">
-        <span className="text-xl font-sans font-bold text-slate-900">
+        <span className="text-xl font-sans hover:translate-y-[-2px] transition-transform font-bold text-slate-900">
           Stay<span className="text-amber-600">Line</span>
         </span>
 
@@ -24,7 +24,7 @@ export default function Navbar() {
             <a
               key={link.label}
               href={link.href}
-              className="text-slate-600 hover:text-amber-600 transition"
+              className="text-slate-600 hover:translate-y-[-2px] hover:text-amber-600 transition"
             >
               {link.label}
             </a>
