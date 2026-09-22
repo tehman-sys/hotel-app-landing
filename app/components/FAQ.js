@@ -33,7 +33,7 @@ export default function FAQ() {
   }
 
   return (
-    <section className="bg-white px-6 py-20">
+    <section id="faq" className="bg-white px-6 py-20">
       <div className="max-w-3xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold hover:text-amber-500 hover:translate-y-[-2px] transition-transform text-slate-900 text-center">
           Frequently Asked Questions

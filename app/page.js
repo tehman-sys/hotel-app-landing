@@ -8,6 +8,7 @@ import ContactForm from "./components/ContactForm";
 import CTABanner from "./components/CTABanner";
 import Footer from "./components/Footer";
 import FAQ from "./components/FAQ";
+import Testimonials from "./components/Testimonials";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Pricing />
       <ContactForm />
       <FAQ />
+      <Testimonials />
       <CTABanner />
       <Footer />
     </main>
