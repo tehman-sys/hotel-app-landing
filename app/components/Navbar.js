@@ -12,6 +12,7 @@ export default function Navbar() {
     { label: "FAQ", href: "#faq" },
     { label: "Testimonials", href: "#testimonials" },
     { label: "Contact", href: "#contact" },
+    { label: "Add App", href: "/add-app" },
   ];
 
   return (
