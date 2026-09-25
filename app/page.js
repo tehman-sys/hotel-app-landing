@@ -4,11 +4,12 @@ import Problem from "./components/Problem";
 import Services from "./components/Services";
 import Process from "./components/Process";
 import Pricing from "./components/Pricing";
+import AppsList from "./components/AppsList";
 import ContactForm from "./components/ContactForm";
-import CTABanner from "./components/CTABanner";
-import Footer from "./components/Footer";
 import FAQ from "./components/FAQ";
 import Testimonials from "./components/Testimonials";
+import CTABanner from "./components/CTABanner";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Services />
       <Process />
       <Pricing />
+      <AppsList />
       <ContactForm />
       <FAQ />
       <Testimonials />

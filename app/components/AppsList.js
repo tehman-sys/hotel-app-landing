@@ -21,7 +21,7 @@ export default function AppsList() {
   return (
     <section className="bg-slate-50 px-6 py-20">
       <div className="max-w-5xl mx-auto text-center">
-        <h2 className="text-3xl font-bold text-slate-900">Added Apps</h2>
+        <h2 className="text-3xl font-bold  hover:text-amber-500 hover:translate-y-[-2px] text-slate-900">Added Apps</h2>
         <div className="grid md:grid-cols-3 gap-8 mt-12 text-left">
           {apps.map((app) => (
             <div
